@@ -1,0 +1,184 @@
+%article using font-size 12 and A4-size
+\documentclass[a4paper,12pt]{article}
+
+%use danish hyphenation and titles
+%handle utf8-characters
+\usepackage[danish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%for images
+\usepackage[pdftex]{graphicx}
+
+%allow nested figures
+\usepackage{subfigure}
+
+%control line spacing
+\usepackage{setspace}
+%\singlespacing
+\onehalfspacing
+%\doublespacing
+
+%set margins
+%\usepackage[margin=0.75in]{geometry}
+
+%allows margin-notes
+%good for work in progress papers
+%\usepackage{marginnote}
+
+%allows pretty quoting using ``'' or `'
+\usepackage{upquote}
+
+%two definitions of the color grey
+\usepackage{color}
+\definecolor{listinggray}{gray}{0.9}
+%\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+
+%allows pretty source code
+\usepackage{listings}
+\lstset{
+	language=,
+	literate=
+		{‚Äö√†√∂¬¨‚àÇ}{{\ae}}1
+		{‚Äö√†√∂‚Äö√†√®}{{\o}}1
+		{‚Äö√†√∂‚Äö√Ñ¬¢}{{\aa}}1
+		{‚Äö√†√∂‚àö√∫}{{\AE}}1
+		{‚Äö√†√∂‚àö‚â§}{{\O}}1
+		{‚Äö√†√∂‚àö√±}{{\AA}}1,
+	backgroundcolor=\color{listinggray},
+	tabsize=3,
+	rulecolor=,
+	basicstyle=\scriptsize,
+	upquote=true,
+	aboveskip={1.5\baselineskip},
+	columns=fixed,
+	showstringspaces=false,
+	extendedchars=true,
+	breaklines=true,
+	prebreak =\raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+	frame=single,
+	showtabs=false,
+	showspaces=false,
+	showstringspaces=false,
+	identifierstyle=\ttfamily,
+	keywordstyle=\color[rgb]{0,0,1},
+	commentstyle=\color[rgb]{0.133,0.545,0.133},
+	stringstyle=\color[rgb]{0.627,0.126,0.941},
+}
+%captions on listings
+\usepackage[center,font=small,labelfont=bf,textfont=it]{caption}
+
+%allows fancy enumeration
+\usepackage{enumerate}
+
+%allows use of the BibTex for the bibliography
+\usepackage[numbers]{natbib}
+
+%make references and URLs in the pdf to clickable links
+\usepackage{hyperref}
+
+%proper header formatting
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead[]{} %clear standard settings
+\chead[]{} %clear standard settings
+\rhead[]{\rightmark} %current section
+\lfoot[]{} %clear standard settings
+\cfoot[]{\thepage} %current page number 
+\rfoot[]{} %clear standard settings
+
+%define paper title, author and date
+%if date is empty, defaults to current date
+\title{Kontekstuel analyse}
+\author{}
+\date{Oktober 9th - 2013}
+
+\begin{document}
+\maketitle %insert the defined title
+\tableofcontents %generate table of content
+\newpage
+
+\clearpage %clears float-buffer - inserting those missing - and starts new page
+
+\section{PACT analyse}
+\subsection{People}
+Disse brugere vil man kunne forvente vil bruge låsesystemet.
+
+\begin{itemize}
+    \item Voksne der er husejere
+    \item Børn til husejere
+    \item Personer der er åben for ny teknologi
+    \item Personer der er erfarne it-brugere.
+    \item Typer, der gerne vil holde øje med deres hjem.
+\end{itemize}
+
+\subsection{Activities}
+Dette er opgaverne man vil kunne udføre ved låsesystemet.
+
+\begin{itemize}
+    \item Låse op og i
+    \item Aflæse om låsen er åben eller låst
+    \item Give en midlertidig nøgle
+    \item Gøre en nøgle ugyldig, så den ikke kan bruges til låsen
+    \item Se en log over interaktioner med låsen på en bestemt dato
+    \item Ændre brugerprivilegier eks. lade en bruger uddele nøgler eller se en log over interaktioner med låsen på en bestemt dato
+    \item Se hvem der har nøgle til låsen
+\end{itemize}
+
+
+\subsection{Context}
+Dette er situationer brugere muligvis vil bruge låsesystemet.
+
+\begin{itemize}
+    \item En person skal lukke en håndværker ind til reparationsarbejde mens han
+ikke er hjemme.
+    \item Når du får et opkald fra en i familien som har glemt sin nøgle og vil ind.
+    \item En person er taget på arbejde og kan ikke huske om vedkommende låste døren.
+    \item Brugeren vil finde ud af hvem der har brugt låsen den forrige dag.
+    \item Brugeren vil fratage en lejers digitale nøgle.
+    \item Hvis du fysisk ikke kan bevæge dig hen til døren.
+\end{itemize}
+
+\subsection{Technology}
+Application vil blive kørt på en smartphone, tablet eller datamat med adgang til internettet.
+
+\section{Tjekliste}
+Følgende tjekliste bliver brugt som støtte i interviewene til at guide samtalen. \\
+Disse punkter indleder interviewet og forklarer brugeren hvad der skal foregå og hvorfor:
+
+\begin{itemize}
+    \item Vi vil vise dig en tidlig udgave (prototype) af låsesystemet.
+    \item Hvad er dine internet-færdigheder? Bruger du din smartphone ofte? Hvilke slags app bruger du?
+\end{itemize}
+
+Disse punkter sikrer at relevante emner omkring brugerens forventninger til låsesystemet bliver dækket i interviewene:
+
+\begin{itemize}
+    \item Hvor ofte bruger du en lås?
+    \item Hvor mange nøgler er der i dit nøglebundt?
+    \item Har du mange nøgler til få steder, eller få nøgler til mange steder?
+    \item Bruger du i forvejen nogle internetstyrede løsninger i dit hjem (fx. lys, musikanlæg etc.)?
+    \item Hvornår smed du sidst din nøgler væk?
+    \item Hvornår skulle du sidst bruge en kopi af en nøgle?
+    \item Har du brugt en digital lås før? (Evt. hotel el. lign.) ?
+    \item Vil du betegne dig selv som en person der generelt har tillid til ny teknologi?
+    \item Hvilke forskellige typer af nøgler kender du (kort, chip, fingeraftryk etc.)?
+    \item Hvad syntes du om at kunne åbne og låse med din smartphone?
+    \item Hvilke funktioner kunne låsesystemet have som du syntes var smart?
+    \item Hvilke funktioner kunne låsesystemet have som du syntes var unødvendigt?
+    \item Kunne du finde på at bruge låsesystemet?
+\end{itemize}
+Følgende punkter vil blive stillet efter demonstrationen af prototypen:
+
+\begin{itemize}
+    \item Hvordan lever låsesystemet op til dine forventninger?
+    \item Syntes du der mangler noget?
+    \item Kan du nævne to ting du kunne lide og to ting du ikke kunne lide ved låsesystemet?
+    \item Ville du vælge en sådan løsning til dit eget hjem?
+    \item Hvilke sider syntes du kunne blive forbedret?
+    \item Hvorfor ville du eller ville du ikke bruge sådan et låsesystem i fremtiden?
+    \item Ville du anvende dette låsesystem som supplement til fysiske nøgler, eller som din primære låsemetode?
+\end{itemize}
+
+
+\end{document}
