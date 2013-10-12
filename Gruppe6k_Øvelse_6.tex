@@ -96,8 +96,6 @@
 \begin{document}
 \maketitle %insert the defined title
 \newpage
-\section*{Resume}
-\newpage
 \tableofcontents %generate table of content
 \newpage
 
@@ -190,10 +188,10 @@ hovedprofession.
 \begin{tabular}{|l|l|l|l|l|l|}
 	\hline Deltager & Køn & Alder & Profession & Postnummer & Interneterfaring \\
 	\hline 1 & K & 23  & Stud. Global studies, RUC & 2300 & Erfaren \\
-	\hline 2 & & & & & \\
+	\hline 2 & M & 26 & Stud. Matematik, KU & 2605 & Erfaren\\
 	\hline 3 & K & 25 & Stud. Fysik, KU & 2200 & Erfaren \\
 	\hline 4 & M & 25 & Stud. Biologi, KU & 2300 & Meget erfaren \\
-	\hline 5 & & & & & \\
+	\hline 5 & K & 19 & Stud. HF, Frederiksberg & 2605 & Lidt erfaren \\
 	\hline
 \end{tabular}
 \\ \\
@@ -215,14 +213,13 @@ Interneterfaring er klassificeret af testpersonen i henhold til disse gruppering
 Citater fra testdeltagere står i citationstegn. "Dette er altså et eksempel på et testdeltagercitat".
 \subsection{Erfaringer med og brug af traditionelle fysiske låse}
 
-To testdeltagere (1 og 3)bruger deres nøglebundt mere end 25 gange om dagen, mens en enkelt (4) kun bruger det 5-10 gange om dagen.
+To testdeltagere (1 og 3)bruger deres nøglebundt mere end 25 gange om dagen, mens (2, 4 og 5) kun bruger det 5-10 gange om dagen.
 \\ \\
 To destdeltagere (1 og 3) siger at det føler sig "afhængige" af deres fysiske nøgle.
 \\ \\
 To testdeltagere (3 og 4) siger at de ikke altid har alle deres nøgler på sig, men supplerer deres nøglebundt specielle nøgler når de ved de skal bruge dem.
 \\ \\
 Ingen af testdeltagerne har mistet deres nøglebundt (permanent/langvarigt) mere end en gang.
-
 \\ \\
 Ingen af testdeltagerne har fået lavet en kopi af en fysisk nøgle mere end 3 gange i deres liv.
 \\ \\
@@ -236,8 +233,6 @@ En af testdeltagerne (3), har en enkelt nøgle, som af og til ligger derhjemme n
 Alle deltagere der nævnte systemet, fandt det meget smart.
 \\ \\
 Alle testdeltagerne havde erfaring med at bruge chiplåse til døre.
-\\ \\
-
 
 
 \subsection{Erfaringer med andre internetstyrede løsninger}
@@ -262,15 +257,15 @@ Deltager 1 nævner, at hun gerne så en funktion der kunne vise de steder man ha
 
 
 \subsection{Features og indhold der ville være dårligt}
-2 testdeltagere (1 og 3), nævner, at mere end de allermest basale funktioner (lås op/i, samt se status på lås), ikke har plads i app'ens primære forside, og at de ville være træt af et design med "mange flere funktioner, allerede på forsiden, end man kan overskue, for så kommer man aldrig igang" (citat fra 3).
+3 testdeltagere (1, 2 og 3), nævner, at mere end de allermest basale funktioner (lås op/i, samt se status på lås), ikke har plads i app'ens primære forside, og at de ville være træt af et design med "mange flere funktioner, allerede på forsiden, end man kan overskue, for så kommer man aldrig igang" (citat fra 3).
 \\ \\
 En deltager (1), nævner at et fingeraftrykslås ville være ufyldestgørende som sikkerhedsforanstaltning.
-\\ \\
 
 \subsection{Holdninger til anvendelse}
 Alle testdeltagere kunne se sig selv anvende systemet i deres private hjem i fremtidem såfremt sikkerheden var god nok. 
 \\ \\
-Ingen af testdeltagerne ville anvende det i deres private hjem nu.
+1 testdeltagerne (2) ville anvende det i sit private hjem nu.
+
 \subsection{Tillid og sikkerhed}
 
 Alle testdeltagere understreger at de har "meget høje krav" (citat fra 1), eller tilsvarende til sikkerheden.
@@ -279,11 +274,10 @@ To af testdeltagerne (1 og 4) beskriver deres syn på ny teknologi som "skeptisk
 
 Ingen af testdeltagerne kan komme på en løsning som de både finder sikker og let nok. "Jo lettere det er at bruge, jo lettere er det jo for det meste at misbruge" (citat fra 4).
 
-
-
 \subsection{Forventning vs. prototype}
-\\ \\
 Begge de første testdeltagere fandt funktionaliteten "Bestil fysisk nøgle" der optrådte i den første protoype, overflødig, da behovet meget sjældent opstår. \\"Jeg ville jo alligevel ringe til firmaet, så det er lidt spild af plads" (citat fra 1)
+\\ \\
+En testdeltager (2) fandt grovprototypens tekster var forvirrende men at selve systemet ellers virkede simpelt. Det kunne han godt lide.
 \\ \\
 To af testdeltagerne (3 og 4) mente at prototypen nogenlunde passede til deres forventninger til hvad de skulle se.
 \\ \\
@@ -292,23 +286,97 @@ Desuden var hun ligeledes positivt overrasket over engangs- og tidsbegrænsnings
 
 
 \section{Kerneopgaver}
+Dette er de grundlæggende arbejdsopgaver vi fandt ved brainstorm inden interviewsne.
+
+\begin{itemize}
+    \item Åbne og låse
+    \item Se om lås er åbent eller låst
+    \item Uddele nøglekopier til andre
+    \item Gøre en nøgle ugyldig, så den ikke kan bruges til låsen
+    \item Se en log over interaktioner med låsen på en bestemt dato
+    \item Ændre brugerprivilegier eks. lade en bruger uddele nøgler
+\end{itemize}
+Følgende punkter er tilføjet på grundlag af interviewsne.
+
+\begin{itemize}
+    \item Give en midlertidig nøgle
+    \item Se hvem der har nøgler til låse
+\end{itemize}
+Til sidst blev punktet at kunne bestille en fysisk nøgle via app'en fjernet da der fleste fandt dette unødvendigt.
 
 \section{Målgruppebeskrivelser}
-\subsection{Uddybende beskrivelse af en målgruppe}
+Følgende 4 bruger profiler er opnået gennem brainstorming og diskussion i gruppen.
+\\
+Primære brugergrupper:
+\begin{itemize}
+    \item Husejere
+    \item Børn af husejere
+    \item Personer der er åbne overfor ny teknologi
+\end{itemize}
+Sekundære brugergrupper er firmakunder som boligblokke, instutioner, firmaer osv. fokus ligger dog på private kunder jvf. oplæg.
+
+\subsection{Uddybende beskrivelse af målgruppen personer der er åbne overfor ny teknologi}
+Personer der er åbne overfor ny teknologi vil anvende låsesystemet mange gange om ugen. De bruger den primært til låse op og i, tjekke om alt er låst eller hvis de en sjældent gang får håndværker besøg at uddele nøgle.
+\\ \\
+Målgruppen er erfarne smartphone brugere. De forstår terminologien omkring låse.
+\\ \\
+Målgruppen bruger smartphones, men har ikke brugt en application til at åbne og låse med før fysiske låse før. De er erfarne brugere af internettet og de har alle adgang til dette hjemmefra.
+\\ \\
+Målgruppen kender opbygningen af generelle apps, da de bruger andre. De ved ikke hvordan smarthphonen eller applicationerne fungerer internt. Det virker bare.
+\\ \\
+Målgruppen vil gøre brug låsesystemet oftere end de andre målgrupper.
 
 \section{Personas}
-\subsection{Persona 1}
-\subsection{Persona 2}
+I det følgende er der opstillet to brugerkarakteristikker. Den første er i målgruppen \emph{personer der er åbne overfor ny teknologi}. Den anden er i målgruppen \emph{husejere}
+
+\subsection{Handy Tom}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{tom}
+\caption{Foto lånt af http://haandvaerkere.wordpress.com}
+\label{fig: tom}
+\end{figure}
+Tom er 53 år og bor på Amager. Han arbejder som gårdmand for kommunen. Han har 2 børn og er gift.
+\\ \\
+Tom har haft sin smartphone i halvandet år nu. Han er forsigtig med sin telefon og plejer at få hjælp af sin svigersøn når han skal hente nye applicationer.
+\\ \\
+Når der er noget i hjemmet der skal fixes er det Tom som plejer at tage sig af dette. Han har hænderne skruet ordentligt på og dygtig til alt håndværk.
+\\ \\
+Tom bliver nok gange nød til at tage fri fra arbejde for at lukke håndværkere ind når han en sjældent gang ikke kan løse dette selv og har en reservenøgle liggende hos naboen til når datteren glemmer sin.
+
+\subsection{Nørdede Niels}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.8]{niels}
+\caption{Foto lånt af http://www.computerworld.dk}
+\label{fig: niels}
+\end{figure}
+Niels er 28 år, og bor på en andelslejelighed i Vanløse. Han har læst Matematik og Teknologi på DTU. Han har arbejdet på Oticon i et års tid.
+\\ \\
+Han bor sammen med sin kæreste, som kalder ham for sin nørd. Hun beskriver ham som, hjælpeløs uden sin smartphone. Han har alle mulige smarte applicationer.
+\\ \\  
+Niels har stor interesse for ny teknologi. Han kan godt lide at købe noget nyt på amazon og lege med dette. Det sidste han købte var en drone han kunne styre med sin smartphone.
+\\ \\
+Han syntes at det vil være nemmere at have sine nøgler digitalt, da de fysiske generer ham. Han har dog sine forbehold for sikkerheden.
 
 \section{Scenarier}
-\subsection{Persona 1's brug af hjemmesiden}
-\subsection{Persona 2's brug af hjemmesiden}
+\subsection{Toms brug af låsesystemet}
+Det er tirsdag formiddag og Tom er på arbejde. Han har en aftale med håndværker der skal se på hvorfor der kun er koldt vand. Håndværkeren kan være det mellem 12:00-14:00. Han aftaler med håndværkeren at han får en nøgle som han kan bruge via en smartphone.
+\\ \\
+Senere på aftenen tjekker svigersønnen og Tom oversigten over hvornår håndværkeren havde været forbi og var gået igen.
 
-\section{Brugernes behov}
+\subsection{Niels brug af låsesystemet}
+Det er tirsdag aften. Niels har en aftale om at mødes med en ven hjemme hos Niels og få et par drinks og tage i byen. Niels tager forbi supermarkedet for at købe ind til at lave drinks. Vennen ringer og siger at han står ude foran døren, men at ingen svarer. Niels åbner for låsen via sin smartphone og fortæller sin ven at han snart er hjemme.
 
 \section{Erfaringer}
+Vi har gjort os følgende erfaringer mht. interviewprocessen:
+\begin{itemize}
+    \item Vi har lært, at for en system af denne type, skulle vi have været bedre til at finde relevante interviewdeltagere, idet der kommer til at mangle repræsentanter for flere generationer i vores valg.
+    \item Som interviewer skal man gøre sig meget umage ikke at komme til at stille ledende spørgsmål.
+    \item Som interviewer skal man være meget nysgerrig for at bore dybt nok i de spørgsmål som man stiller, så at man rent faktisk får en dybere indsigt end den overfladiske.
+    \item Som interviewer skal man være saglig og finder ud af hvad personen man interviewer mener og ikke skubbe sine egne meninger over på denne.
+\end{itemize}
 
-Vi har lært, at for en system af denne type, skulle vu have været mere omyggelige med udvælgelse af interviewdeltagere, idet der kommer til at mangle repræsentanter for flere generationer i vores valg.
 
 \newpage 
 \appendix
@@ -365,7 +433,7 @@ Herunder ses skærmbilleder fra vores prototype. Ved interviws er brugt udklippe
 \begin{tabular}{|c|c|c|c|c|c|}
 	\hline & Forberedelse til interviews & Interviews & Prototype & Rapport & Samlet \\
 	\hline Julie & 5 & 3 & 4 & 10 & 22 \\
-	\hline Yaser & & & & & \\
+	\hline Yaser & 6 & 2 & 2 & 14 & 24 \\
 	\hline
 \end{tabular}
 
