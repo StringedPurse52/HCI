@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.27)  12 OCT 2013 17:10
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.27)  12 OCT 2013 17:51
 entering extended mode
  %&-line parsing enabled.
 **Gruppe6k_Øvelse_6.tex
@@ -813,114 +813,160 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--230
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--238
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--238
+Underfull \hbox (badness 10000) in paragraph at lines 235--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--238
+Underfull \hbox (badness 10000) in paragraph at lines 235--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--247
+Underfull \hbox (badness 10000) in paragraph at lines 235--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--247
+Underfull \hbox (badness 10000) in paragraph at lines 244--249
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--253
+Underfull \hbox (badness 10000) in paragraph at lines 244--249
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 255--260
+Underfull \hbox (badness 10000) in paragraph at lines 252--255
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--260
+Underfull \hbox (badness 10000) in paragraph at lines 257--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--267
+Underfull \hbox (badness 10000) in paragraph at lines 257--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--267
+Underfull \hbox (badness 10000) in paragraph at lines 265--269
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--267
+Underfull \hbox (badness 10000) in paragraph at lines 265--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--269
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 269--272
+Underfull \hbox (badness 10000) in paragraph at lines 271--274
 
  []
 
-[11] [12] [13] <proto/AB.jpg, id=227, 2558.55875pt x 3519.1475pt>
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.285 \\ \\
+           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.286 B
+       egge de første testdeltagere fandt funktionaliteten "Bestil fysisk n...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--292
+
+ []
+
+[11] [12] [13] <proto/AB.jpg, id=232, 2558.55875pt x 3519.1475pt>
 File: proto/AB.jpg Graphic file (type jpg)
 
-<use proto/AB.jpg> <proto/C.jpg, id=228, 2558.55875pt x 3519.1475pt>
+<use proto/AB.jpg> <proto/C.jpg, id=233, 2558.55875pt x 3519.1475pt>
 File: proto/C.jpg Graphic file (type jpg)
 
-<use proto/C.jpg> <proto/DE.jpg, id=229, 2558.55875pt x 3519.1475pt>
+<use proto/C.jpg> <proto/DE.jpg, id=234, 2558.55875pt x 3519.1475pt>
 File: proto/DE.jpg Graphic file (type jpg)
 
-<use proto/DE.jpg> <proto/FG.jpg, id=230, 2558.55875pt x 3519.1475pt>
+<use proto/DE.jpg> <proto/FG.jpg, id=235, 2558.55875pt x 3519.1475pt>
 File: proto/FG.jpg Graphic file (type jpg)
 
-<use proto/FG.jpg> <proto/HI.jpg, id=231, 2558.55875pt x 3519.1475pt>
+<use proto/FG.jpg> <proto/HI.jpg, id=236, 2558.55875pt x 3519.1475pt>
 File: proto/HI.jpg Graphic file (type jpg)
 
-<use proto/HI.jpg> <proto/JK.jpg, id=232, 2558.55875pt x 3519.1475pt>
+<use proto/HI.jpg> <proto/JK.jpg, id=237, 2558.55875pt x 3519.1475pt>
 File: proto/JK.jpg Graphic file (type jpg)
 
 <use proto/JK.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 341--349
+Underfull \hbox (badness 10000) in paragraph at lines 355--363
 
  []
 
 [14] [15 <./proto/AB.jpg>] [16 <./proto/C.jpg>] [17 <./proto/DE.jpg>] [18 <./pr
-oto/FG.jpg>] [19 <./proto/HI.jpg>] [20 <./proto/JK.jpg>]
-(./Gruppe6k_Øvelse_6.aux) ) 
+oto/FG.jpg>] [19 <./proto/HI.jpg>]
+Overfull \hbox (26.6657pt too wide) in paragraph at lines 365--371
+[] 
+ []
+
+[20 <./proto/JK.jpg>] [21] (./Gruppe6k_Øvelse_6.aux) ) 
 Here is how much of TeX's memory you used:
- 8353 strings out of 493848
- 119635 string characters out of 1152823
+ 8360 strings out of 493848
+ 119722 string characters out of 1152823
  197511 words of memory out of 3000000
- 11441 multiletter control sequences out of 15000+50000
+ 11446 multiletter control sequences out of 15000+50000
  13026 words of font info for 34 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  38i,11n,43p,366b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super
--ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share
-/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1
-728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfrm2074.pfb>
-Output written on Gruppe6k_Øvelse_6.pdf (20 pages, 6058071 bytes).
+{/usr/share/texmf/fonts/
+enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/
+cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on Gruppe6k_Øvelse_6.pdf (21 pages, 6060975 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 287 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 309 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
