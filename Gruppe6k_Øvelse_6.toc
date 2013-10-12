@@ -1,0 +1,31 @@
+\select@language {danish}
+\contentsline {section}{\numberline {1}PACT analyse}{5}{section.1}
+\contentsline {subsection}{\numberline {1.1}People}{5}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Activities}{5}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Context}{6}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Technology}{6}{subsection.1.4}
+\contentsline {section}{\numberline {2}Fremgangsm\IeC {\r a}de}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Anvendt metode}{7}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Diskussion af metoden}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Interviewdeltagere}{7}{subsection.2.3}
+\contentsline {section}{\numberline {3}Interviewresultater}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Erfaringer med traditionelle fysiske l\IeC {\r a}se}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Erfaringer fra andre digitale l\IeC {\r a}se}{10}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Generelle forventninger}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Features, der ville v\IeC {\ae }re gode, men som ikke er forventet}{10}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Features og indhold der ville v\IeC {\ae }re d\IeC {\r a}rligt}{10}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Holdninger til anvendelse}{10}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Tillid og sikkerhed}{10}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Forventning vs. prototype}{10}{subsection.3.8}
+\contentsline {section}{\numberline {4}Kerneopgaver}{10}{section.4}
+\contentsline {section}{\numberline {5}M\IeC {\r a}lgruppebeskrivelser}{10}{section.5}
+\contentsline {subsection}{\numberline {5.1}Uddybende beskrivelse af en m\IeC {\r a}lgruppe}{10}{subsection.5.1}
+\contentsline {section}{\numberline {6}Personas}{10}{section.6}
+\contentsline {subsection}{\numberline {6.1}Persona 1}{10}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Persona 2}{10}{subsection.6.2}
+\contentsline {section}{\numberline {7}Scenarier}{10}{section.7}
+\contentsline {subsection}{\numberline {7.1}Persona 1's brug af hjemmesiden}{10}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Persona 2's brug af hjemmesiden}{10}{subsection.7.2}
+\contentsline {section}{\numberline {8}Brugernes behov}{10}{section.8}
+\contentsline {section}{\numberline {9}Erfaringer}{10}{section.9}
+\contentsline {section}{\numberline {A}Tjekliste}{11}{appendix.A}
